@@ -1,0 +1,145 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e0d1b2;
+    
+}
+
+.nav-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 8px;
+}
+
+hr {
+    border-top: 3px solid black
+}
+
+.nav-text {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(69, 55, 55);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    padding: 5px;
+}
+
+.text-section {
+    
+    width: 50%;
+    height: 60vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-section div {
+    width: 30vw;
+    font-size: 5vh;
+    color: #e0d1b2;
+    font-style: italic;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin-top: 5vh;
+    position: relative;
+    overflow: hidden;
+    text-align: start;
+    
+
+}
+
+.text-section div::after {
+   content: "";
+   position: absolute;
+   height: 80px;
+   width: 80px;
+   background-color: #e0d1b2;
+   top: 0;
+   right: -20px;
+   transform: rotate(55deg);
+   border: none;
+}
+
+.img-section {
+    width: 50%;
+    height: 60vh;
+}
+
+.legacy {
+    font-size: 15vh;
+    color: gray;
+}
+
+.legacy span {
+    font-size: 20vh;
+    color: darkslategrey;
+}
+
+.thatliveson {
+    font-size: 5vh;
+    margin-left: 6vw;
+    color: darkslategray;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.card-container-heading {
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bold;
+    color: rgb(44, 84, 84);
+    margin-top: 10vh;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1vw;
+    margin-top: 10vh;
+}
+
+.card {
+    width: 250px;
+    height: 40vh;
+    padding: 5px;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: #e0d1b2;
+    
+}
+
+.card h3 {
+    color: rgb(167, 156, 156);
+}
+
+.card-content {
+    color: whitesmoke;
+}
